@@ -45,11 +45,11 @@ const about = () => {
                     <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
                         <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75" >Biography</h2>
-                            <p className="font-medium"> Hi, I'm Abhishek Saini, a MERN stack web developer with a passion for creating beautiful, responsive, and user-friendly websites. With a solid foundation in HTML, CSS, and JavaScript, I have expanded my skillset to include React.js, Next.js, Tailwind CSS, Firebase, MongoDB, and other popular web technologies.
+                            <p className="font-medium"> Hi, I&#39;m Abhishek Saini, a MERN stack web developer with a passion for creating beautiful, responsive, and user-friendly websites. With a solid foundation in HTML, CSS, and JavaScript, I have expanded my skillset to include React.js, Next.js, Tailwind CSS, Firebase, MongoDB, and other popular web technologies.
                             </p>
                             <p className="font-medium my-4"> Through my learning journey, I have created numerous websites and projects, which have helped me gain valuable experience and hone my development skills. My love for web development is rooted in my desire to bring innovative and creative ideas to life, while making sure they are functional and accessible to everyone.
                             </p>
-                            <p className="font-medium">Whether I'm working on a website, or
+                            <p className="font-medium">Whether I&#39;m working on a website, or
                                 other digital product, I bring my commitment to design excellence and user-centered thinking to
                                 every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
                             </p>
