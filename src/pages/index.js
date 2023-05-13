@@ -7,6 +7,9 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import TransitionEffect from '@/components/TransitionEffect'
+import FloatingDiv from '@/components/FloatingDiv'
+import crown from '../../public/images/icons/crown.png'
+import thumbup from '../../public/images/icons/react.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +22,7 @@ export default function Home() {
         <meta name='keywords' content='Web developer, portfolio, reactjs/nextjs developer, Abhishek Saini' />
       </Head>
       <TransitionEffect />
-      <main className='flex items-center w-full min-h-[90vh] text-light sm:pt-[50px] xs:pt-[50px] md:pt-[50px]'>
+      <main className='flex items-center w-full min-h-[90vh] text-light sm:pt-[50px] xs:pt-[50px] md:pt-[50px] '>
         <Layout className=' !p-0 !py-0 pb-0  md:!pt-16  sm:!pt-8 !overflow-x-hidden'>
           <div className='flex items-center justify-between lg:flex-col '>
             
@@ -32,13 +35,13 @@ export default function Home() {
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/resume2.pdf" target='_blank'
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark  border-2 border-solid border-transparent hover:border-dark cursor-pointer dark:bg-light dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base'
-                >Resume <LinkArrow className="w-6 ml-1" /></Link>
+                >Resume <LinkArrow className="w-6 ml-1 sm:pl-1 xs:pl-1 md:pl-1" /></Link>
                 <Link href="mailto:abhisheksaini655@gmail.com" target='_blank'
                   className='ml-4 text-lg font-medium capitalize text-dark underline cursor-pointer dark:text-light md:text-base '
                 >Contact</Link>
               </div>
             </div>
-            <div className='md:mt-[150px]  sm:mt-[150px] ml-0 sm:ml-[35%] xs:ml-[35%] md:ml-[35%] xs:mt-[100px]  w-[37%]  md:w-[75%] lg:w-[40%]'>
+            <div className='md:mt-[150px]  sm:mt-[150px] ml-0 sm:ml-[35%] xs:ml-[35%] md:ml-[35%] xs:mt-[100px]  w-[37%]  md:w-[75%] lg:w-[40%] relative'>
               <Image 
                 priority
                 sizes='(max-width: 768px ) 100vw, (max-width: 1200px) 50vw, 50vw'
@@ -46,6 +49,8 @@ export default function Home() {
                 alt='Image'
                 className='w-full h-auto lg:hidden md:inline-block md:w-full '
               />
+            <FloatingDiv image={crown} text1="web" text2="Developer" className='top-[100px] -left-28 xs:top-[30px] sm:top-[30px] md:top-[30px] lg:hidden md:flex'  />
+            <FloatingDiv image={thumbup} text1="React/Next" text2="Developer" className='bottom-10 -left-16 lg:hidden md:flex'  />
             </div>
           </div>
         </Layout>
