@@ -33,7 +33,7 @@ export default function Home() {
                 Explore my latest projects, showcasing my expertise in React.js and web development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/resume2.pdf" target='_blank'
+                <Link href="/Abhishek-Saini-Resume.pdf" target='_blank'
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark  border-2 border-solid border-transparent hover:border-dark cursor-pointer dark:bg-light dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base'
                 >Resume <LinkArrow className="w-6 ml-1 sm:pl-1 xs:pl-1 md:pl-1" /></Link>
                 <Link href="mailto:abhisheksaini655@gmail.com" target='_blank'

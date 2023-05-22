@@ -35,6 +35,9 @@ const Skills = () => {
                 <Skill name="Firebase" x="-25vw" y="18vw" />
                 <Skill name="MongoDB" x="18vw" y="18vw" />
                 <Skill name="ExpressJS" x="24vw" y="-18vw" />
+                <Skill name="React-Native" x="-24vw" y="-8vw" />
+                <Skill name="C/C++" x="-30vw" y="10vw" />
+
             </div>
         </>
     )
